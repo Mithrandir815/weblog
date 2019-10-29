@@ -1,5 +1,22 @@
+var config = require("./gulp/config.js");
 var gulp = require("gulp");
+var load = require("require-dir");
+var development, production;
 
-gulp.task("default", () => {
-  console.log("hello");
-});
+load("./gulp/tasks", { resurse: true });
+
+development = [
+  "copy-third_party",
+  "copy-images",
+  "copy-javescripts",
+  "compile-sass"
+];
+
+production = [
+  "copy-third_party",
+  "copy-images",
+  "minify-javascripts",
+  "compile-sass"
+];
+
+gulp.task("default", config.env.IS_DEVELOPMENT ? development : production);
