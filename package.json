@@ -4,6 +4,8 @@
   "description": "",
   "main": "app.js",
   "scripts": {
+    "startd": "NODE_ENV=development node app.js",
+    "startp": "NODE_ENV=production node app.js",
     "gulp": "gulp",
     "build-dev": "set NODE_ENV=development && gulp",
     "build-prod": "set NODE_ENV=production && gulp",
@@ -25,6 +27,7 @@
     "express": "^4.17.1",
     "font-awesome": "^4.7.0",
     "jquery": "^3.4.1",
+    "log4js": "^2.11.0",
     "popper.js": "^1.16.0"
   }
 }
