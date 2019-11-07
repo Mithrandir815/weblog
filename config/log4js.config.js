@@ -17,6 +17,12 @@ module.exports = {
       base: path.join(ROOT, "./log/application/"),
       property: "key",
       extension: ".log"
+    },
+    DeteRollingFileLogAppender: {
+      type: "dateFile",
+      filename: path.join(ROOT, "./log/access/access.log"),
+      pattern: "-yyyyMMdd",
+      daysToKeep: 30
     }
   },
 
@@ -32,6 +38,10 @@ module.exports = {
     application: {
       appenders: ["MultiFileLogAppender"],
       level: "ERROR"
+    },
+    access: {
+      appenders: ["DeteRollingFileLogAppender"],
+      level: "INFO"
     }
   }
 };
