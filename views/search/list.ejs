@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>検索</title>
+
+    <%- include("../_share/stylesheets.ejs") %>
+    <!-- Bootstrap core CSS -->
+
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+    <!-- Custom styles for this template -->
+    <link href="starter-template.css" rel="stylesheet">
+  </head>
+  <body>
+    <%- include("../_share/navbar.ejs") %>
+
+    <div class="float-right">
+      <span class="badge badge-secondary"><%= count %> 件</span>
+    </div>
+    <main role="main" class="container">
+      <form class="form-inline mt-5 mb-5" method="GET" action="/search">
+        <input class="form-control" type="text" id="keyword" name="keyword" value="<%= keyword %>"/>
+        <input class="btn btn-default ml-2" type="submit" value="検索" />
+      </form>
+
+      <div class="mt-5 mb-5">
+        <% for (var item of list) { %>
+        <%- include("./item.ejs", item) %>
+        <% } %>
+      </div>
+
+      <nav>
+        <ul class="pagination">
+          <% for (i = 1; i <= pagination.max; i++) { %>
+            <% if (pagination.current !== i) {  %>
+              <li class="page-item"><a class="page-link" href="/search/?keyword=<%= keyword %>&page=<%= i %>"><%= i %></a></li>
+            <% } else { %>
+              <li class="page-item active"><span class="page-link disabled"><%= i %></span></li>
+            <% } %>
+          <% } %>
+        </ul>
+      </nav>
+    </main>
+    <!-- /.container -->
+    <%- include("../_share/javascripts.ejs") %>
+  </body>
+</html>

@@ -1,1 +1,423 @@
 [2019-10-31T01:30:28.255] [ERROR] system - sample
+[2019-11-01T02:04:57.539] [ERROR] system - sample
+[2019-11-01T02:06:16.199] [ERROR] system - sample
+[2019-11-01T02:06:28.875] [ERROR] system - sample
+[2019-11-01T02:07:48.405] [ERROR] system - sample
+[2019-11-05T02:59:44.002] [ERROR] system - Could not find matching close tag for "<%=".
+[2019-11-05T03:00:36.889] [ERROR] system - /Users/iidatakayuki/node/weblog/views/posts/index.ejs:43
+    41|       <dl class="row mt-5 mb-5">
+    42|         <dt class="col-3">公開日:</dt>
+ >> 43|         <dd class="col-9"><%= publishd.toLocalString() %></dd>
+    44|         <dt class="col-3">著者:</dt>
+    45|         <dd class="col-9"><%= authors %></dd>
+    46|         <dt class="col-3">キーワード:</dt>
+
+publishd is not defined
+[2019-11-05T03:00:49.918] [ERROR] system - /Users/iidatakayuki/node/weblog/views/posts/index.ejs:43
+    41|       <dl class="row mt-5 mb-5">
+    42|         <dt class="col-3">公開日:</dt>
+ >> 43|         <dd class="col-9"><%= publishd.toLocaleString() %></dd>
+    44|         <dt class="col-3">著者:</dt>
+    45|         <dd class="col-9"><%= authors %></dd>
+    46|         <dt class="col-3">キーワード:</dt>
+
+publishd is not defined
+[2019-11-05T03:01:42.402] [ERROR] system - /Users/iidatakayuki/node/weblog/views/posts/index.ejs:47
+    45|         <dd class="col-9"><%= authors %></dd>
+    46|         <dt class="col-3">キーワード:</dt>
+ >> 47|         <dd class="col-9"><%= keywords %></dd>
+    48|       </dl>
+    49|       <p class="lead"><%= content %></p>
+    50| 
+
+keywords is not defined
+[2019-11-05T03:02:31.814] [ERROR] system - /Users/iidatakayuki/node/weblog/views/posts/index.ejs:39
+    37| 
+    38|       <div class="border-bottom mt-5 mb-5">
+ >> 39|         <h1><%= title %></h1>
+    40|       </div>
+    41|       <dl class="row mt-5 mb-5">
+    42|         <dt class="col-3">公開日:</dt>
+
+title is not defined
+[2019-11-07T01:03:04.593] [ERROR] system - /Users/iidatakayuki/node/weblog/views/posts/index.ejs:39
+    37| 
+    38|       <div class="border-bottom mt-5 mb-5">
+ >> 39|         <h1><%= title %></h1>
+    40|       </div>
+    41|       <dl class="row mt-5 mb-5">
+    42|         <dt class="col-3">公開日:</dt>
+
+title is not defined
+[2019-11-07T01:05:12.600] [ERROR] system - /Users/iidatakayuki/node/weblog/views/posts/index.ejs:39
+    37| 
+    38|       <div class="border-bottom mt-5 mb-5">
+ >> 39|         <h1><%= title %></h1>
+    40|       </div>
+    41|       <dl class="row mt-5 mb-5">
+    42|         <dt class="col-3">公開日:</dt>
+
+title is not defined
+[2019-11-07T01:05:15.764] [ERROR] system - /Users/iidatakayuki/node/weblog/views/posts/index.ejs:39
+    37| 
+    38|       <div class="border-bottom mt-5 mb-5">
+ >> 39|         <h1><%= title %></h1>
+    40|       </div>
+    41|       <dl class="row mt-5 mb-5">
+    42|         <dt class="col-3">公開日:</dt>
+
+title is not defined
+[2019-11-07T01:05:30.195] [ERROR] system - /Users/iidatakayuki/node/weblog/views/posts/index.ejs:39
+    37| 
+    38|       <div class="border-bottom mt-5 mb-5">
+ >> 39|         <h1><%= title %></h1>
+    40|       </div>
+    41|       <dl class="row mt-5 mb-5">
+    42|         <dt class="col-3">公開日:</dt>
+
+title is not defined
+[2019-11-07T01:05:35.435] [ERROR] system - /Users/iidatakayuki/node/weblog/views/posts/index.ejs:39
+    37| 
+    38|       <div class="border-bottom mt-5 mb-5">
+ >> 39|         <h1><%= title %></h1>
+    40|       </div>
+    41|       <dl class="row mt-5 mb-5">
+    42|         <dt class="col-3">公開日:</dt>
+
+title is not defined
+[2019-11-07T01:05:38.814] [ERROR] system - /Users/iidatakayuki/node/weblog/views/posts/index.ejs:39
+    37| 
+    38|       <div class="border-bottom mt-5 mb-5">
+ >> 39|         <h1><%= title %></h1>
+    40|       </div>
+    41|       <dl class="row mt-5 mb-5">
+    42|         <dt class="col-3">公開日:</dt>
+
+title is not defined
+[2019-11-07T02:01:23.831] [ERROR] system - Unexpected token catch in /Users/iidatakayuki/node/weblog/views/search/list.ejs while compiling ejs
+
+If the above error is not helpful, you may want to try EJS-Lint:
+https://github.com/RyanZim/EJS-Lint
+Or, if you meant to create an async function, pass async: true as an option.
+[2019-11-07T02:11:29.025] [ERROR] system - Unexpected token catch in /Users/iidatakayuki/node/weblog/views/search/list.ejs while compiling ejs
+
+If the above error is not helpful, you may want to try EJS-Lint:
+https://github.com/RyanZim/EJS-Lint
+Or, if you meant to create an async function, pass async: true as an option.
+[2019-11-07T02:11:33.017] [ERROR] system - Unexpected token catch in /Users/iidatakayuki/node/weblog/views/search/list.ejs while compiling ejs
+
+If the above error is not helpful, you may want to try EJS-Lint:
+https://github.com/RyanZim/EJS-Lint
+Or, if you meant to create an async function, pass async: true as an option.
+[2019-11-07T02:27:48.013] [ERROR] system - Unexpected token catch in /Users/iidatakayuki/node/weblog/views/search/list.ejs while compiling ejs
+
+If the above error is not helpful, you may want to try EJS-Lint:
+https://github.com/RyanZim/EJS-Lint
+Or, if you meant to create an async function, pass async: true as an option.
+[2019-11-07T02:28:39.275] [ERROR] system - Unexpected token catch in /Users/iidatakayuki/node/weblog/views/search/list.ejs while compiling ejs
+
+If the above error is not helpful, you may want to try EJS-Lint:
+https://github.com/RyanZim/EJS-Lint
+Or, if you meant to create an async function, pass async: true as an option.
+[2019-11-07T02:34:50.838] [ERROR] system - Unexpected token catch in /Users/iidatakayuki/node/weblog/views/search/list.ejs while compiling ejs
+
+If the above error is not helpful, you may want to try EJS-Lint:
+https://github.com/RyanZim/EJS-Lint
+Or, if you meant to create an async function, pass async: true as an option.
+[2019-11-07T02:34:53.010] [ERROR] system - Unexpected token catch in /Users/iidatakayuki/node/weblog/views/search/list.ejs while compiling ejs
+
+If the above error is not helpful, you may want to try EJS-Lint:
+https://github.com/RyanZim/EJS-Lint
+Or, if you meant to create an async function, pass async: true as an option.
+[2019-11-07T02:35:00.082] [ERROR] system - Unexpected token catch in /Users/iidatakayuki/node/weblog/views/search/list.ejs while compiling ejs
+
+If the above error is not helpful, you may want to try EJS-Lint:
+https://github.com/RyanZim/EJS-Lint
+Or, if you meant to create an async function, pass async: true as an option.
+[2019-11-07T02:35:06.666] [ERROR] system - Unexpected token catch in /Users/iidatakayuki/node/weblog/views/search/list.ejs while compiling ejs
+
+If the above error is not helpful, you may want to try EJS-Lint:
+https://github.com/RyanZim/EJS-Lint
+Or, if you meant to create an async function, pass async: true as an option.
+[2019-11-07T02:40:57.617] [ERROR] system - Unexpected token catch in /Users/iidatakayuki/node/weblog/views/search/list.ejs while compiling ejs
+
+If the above error is not helpful, you may want to try EJS-Lint:
+https://github.com/RyanZim/EJS-Lint
+Or, if you meant to create an async function, pass async: true as an option.
+[2019-11-07T02:41:10.025] [ERROR] system - Unexpected token catch in /Users/iidatakayuki/node/weblog/views/search/list.ejs while compiling ejs
+
+If the above error is not helpful, you may want to try EJS-Lint:
+https://github.com/RyanZim/EJS-Lint
+Or, if you meant to create an async function, pass async: true as an option.
+[2019-11-07T02:41:18.175] [ERROR] system - Unexpected token catch in /Users/iidatakayuki/node/weblog/views/search/list.ejs while compiling ejs
+
+If the above error is not helpful, you may want to try EJS-Lint:
+https://github.com/RyanZim/EJS-Lint
+Or, if you meant to create an async function, pass async: true as an option.
+[2019-11-07T03:27:36.443] [ERROR] system - Unexpected token catch in /Users/iidatakayuki/node/weblog/views/search/list.ejs while compiling ejs
+
+If the above error is not helpful, you may want to try EJS-Lint:
+https://github.com/RyanZim/EJS-Lint
+Or, if you meant to create an async function, pass async: true as an option.
+[2019-11-08T03:46:56.744] [ERROR] system - Unexpected token catch in /Users/iidatakayuki/node/weblog/views/search/list.ejs while compiling ejs
+
+If the above error is not helpful, you may want to try EJS-Lint:
+https://github.com/RyanZim/EJS-Lint
+Or, if you meant to create an async function, pass async: true as an option.
+[2019-11-08T03:53:43.083] [ERROR] system - Unexpected token catch in /Users/iidatakayuki/node/weblog/views/search/list.ejs while compiling ejs
+
+If the above error is not helpful, you may want to try EJS-Lint:
+https://github.com/RyanZim/EJS-Lint
+Or, if you meant to create an async function, pass async: true as an option.
+[2019-11-08T03:56:44.915] [ERROR] system - Unexpected token catch in /Users/iidatakayuki/node/weblog/views/search/list.ejs while compiling ejs
+
+If the above error is not helpful, you may want to try EJS-Lint:
+https://github.com/RyanZim/EJS-Lint
+Or, if you meant to create an async function, pass async: true as an option.
+[2019-11-08T03:57:25.097] [ERROR] system - Unexpected token catch in /Users/iidatakayuki/node/weblog/views/search/list.ejs while compiling ejs
+
+If the above error is not helpful, you may want to try EJS-Lint:
+https://github.com/RyanZim/EJS-Lint
+Or, if you meant to create an async function, pass async: true as an option.
+[2019-11-08T03:59:49.702] [ERROR] system - Unexpected token catch in /Users/iidatakayuki/node/weblog/views/search/list.ejs while compiling ejs
+
+If the above error is not helpful, you may want to try EJS-Lint:
+https://github.com/RyanZim/EJS-Lint
+Or, if you meant to create an async function, pass async: true as an option.
+[2019-11-08T04:03:24.963] [ERROR] system - Unexpected token catch in /Users/iidatakayuki/node/weblog/views/search/list.ejs while compiling ejs
+
+If the above error is not helpful, you may want to try EJS-Lint:
+https://github.com/RyanZim/EJS-Lint
+Or, if you meant to create an async function, pass async: true as an option.
+[2019-11-08T04:03:49.534] [ERROR] system - Unexpected token catch in /Users/iidatakayuki/node/weblog/views/search/list.ejs while compiling ejs
+
+If the above error is not helpful, you may want to try EJS-Lint:
+https://github.com/RyanZim/EJS-Lint
+Or, if you meant to create an async function, pass async: true as an option.
+[2019-11-08T04:03:57.811] [ERROR] system - Unexpected token catch in /Users/iidatakayuki/node/weblog/views/search/list.ejs while compiling ejs
+
+If the above error is not helpful, you may want to try EJS-Lint:
+https://github.com/RyanZim/EJS-Lint
+Or, if you meant to create an async function, pass async: true as an option.
+[2019-11-08T04:04:08.498] [ERROR] system - Unexpected token catch in /Users/iidatakayuki/node/weblog/views/search/list.ejs while compiling ejs
+
+If the above error is not helpful, you may want to try EJS-Lint:
+https://github.com/RyanZim/EJS-Lint
+Or, if you meant to create an async function, pass async: true as an option.
+[2019-11-08T04:07:24.063] [ERROR] system - Unexpected token catch in /Users/iidatakayuki/node/weblog/views/search/list.ejs while compiling ejs
+
+If the above error is not helpful, you may want to try EJS-Lint:
+https://github.com/RyanZim/EJS-Lint
+Or, if you meant to create an async function, pass async: true as an option.
+[2019-11-08T04:07:29.617] [ERROR] system - Unexpected token catch in /Users/iidatakayuki/node/weblog/views/search/list.ejs while compiling ejs
+
+If the above error is not helpful, you may want to try EJS-Lint:
+https://github.com/RyanZim/EJS-Lint
+Or, if you meant to create an async function, pass async: true as an option.
+[2019-11-08T04:08:08.380] [ERROR] system - Unexpected token catch in /Users/iidatakayuki/node/weblog/views/search/list.ejs while compiling ejs
+
+If the above error is not helpful, you may want to try EJS-Lint:
+https://github.com/RyanZim/EJS-Lint
+Or, if you meant to create an async function, pass async: true as an option.
+[2019-11-08T04:08:46.249] [ERROR] system - Unexpected token catch in /Users/iidatakayuki/node/weblog/views/search/list.ejs while compiling ejs
+
+If the above error is not helpful, you may want to try EJS-Lint:
+https://github.com/RyanZim/EJS-Lint
+Or, if you meant to create an async function, pass async: true as an option.
+[2019-11-08T04:10:28.786] [ERROR] system - Unexpected token catch in /Users/iidatakayuki/node/weblog/views/search/list.ejs while compiling ejs
+
+If the above error is not helpful, you may want to try EJS-Lint:
+https://github.com/RyanZim/EJS-Lint
+Or, if you meant to create an async function, pass async: true as an option.
+[2019-11-08T04:10:29.830] [ERROR] system - Unexpected token catch in /Users/iidatakayuki/node/weblog/views/search/list.ejs while compiling ejs
+
+If the above error is not helpful, you may want to try EJS-Lint:
+https://github.com/RyanZim/EJS-Lint
+Or, if you meant to create an async function, pass async: true as an option.
+[2019-11-08T04:10:30.069] [ERROR] system - Unexpected token catch in /Users/iidatakayuki/node/weblog/views/search/list.ejs while compiling ejs
+
+If the above error is not helpful, you may want to try EJS-Lint:
+https://github.com/RyanZim/EJS-Lint
+Or, if you meant to create an async function, pass async: true as an option.
+[2019-11-08T04:10:30.233] [ERROR] system - Unexpected token catch in /Users/iidatakayuki/node/weblog/views/search/list.ejs while compiling ejs
+
+If the above error is not helpful, you may want to try EJS-Lint:
+https://github.com/RyanZim/EJS-Lint
+Or, if you meant to create an async function, pass async: true as an option.
+[2019-11-08T04:10:48.749] [ERROR] system - Failed to lookup view "../view/search/list.ejs" in views directory "/Users/iidatakayuki/node/weblog/views"
+[2019-11-08T04:11:15.474] [ERROR] system - Failed to lookup view "../view/search/list.ejs" in views directory "/Users/iidatakayuki/node/weblog/views"
+[2019-11-08T04:11:18.250] [ERROR] system - Failed to lookup view "../view/search/list.ejs" in views directory "/Users/iidatakayuki/node/weblog/views"
+[2019-11-08T04:11:18.508] [ERROR] system - Failed to lookup view "../view/search/list.ejs" in views directory "/Users/iidatakayuki/node/weblog/views"
+[2019-11-08T04:11:18.725] [ERROR] system - Failed to lookup view "../view/search/list.ejs" in views directory "/Users/iidatakayuki/node/weblog/views"
+[2019-11-08T04:11:26.276] [ERROR] system - Unexpected token catch in /Users/iidatakayuki/node/weblog/views/search/list.ejs while compiling ejs
+
+If the above error is not helpful, you may want to try EJS-Lint:
+https://github.com/RyanZim/EJS-Lint
+Or, if you meant to create an async function, pass async: true as an option.
+[2019-11-08T04:20:15.468] [ERROR] system - Unexpected token catch in /Users/iidatakayuki/node/weblog/views/search/list.ejs while compiling ejs
+
+If the above error is not helpful, you may want to try EJS-Lint:
+https://github.com/RyanZim/EJS-Lint
+Or, if you meant to create an async function, pass async: true as an option.
+[2019-11-08T04:20:21.520] [ERROR] system - Unexpected token catch in /Users/iidatakayuki/node/weblog/views/search/list.ejs while compiling ejs
+
+If the above error is not helpful, you may want to try EJS-Lint:
+https://github.com/RyanZim/EJS-Lint
+Or, if you meant to create an async function, pass async: true as an option.
+[2019-11-08T04:41:30.439] [ERROR] system - Unexpected token catch in /Users/iidatakayuki/node/weblog/views/search/list.ejs while compiling ejs
+
+If the above error is not helpful, you may want to try EJS-Lint:
+https://github.com/RyanZim/EJS-Lint
+Or, if you meant to create an async function, pass async: true as an option.
+[2019-11-08T04:41:56.864] [ERROR] system - Unexpected token catch in /Users/iidatakayuki/node/weblog/views/search/list.ejs while compiling ejs
+
+If the above error is not helpful, you may want to try EJS-Lint:
+https://github.com/RyanZim/EJS-Lint
+Or, if you meant to create an async function, pass async: true as an option.
+[2019-11-08T04:42:07.306] [ERROR] system - Unexpected token catch in /Users/iidatakayuki/node/weblog/views/search/list.ejs while compiling ejs
+
+If the above error is not helpful, you may want to try EJS-Lint:
+https://github.com/RyanZim/EJS-Lint
+Or, if you meant to create an async function, pass async: true as an option.
+[2019-11-08T04:50:08.385] [ERROR] system - Unexpected token catch in /Users/iidatakayuki/node/weblog/views/search/list.ejs while compiling ejs
+
+If the above error is not helpful, you may want to try EJS-Lint:
+https://github.com/RyanZim/EJS-Lint
+Or, if you meant to create an async function, pass async: true as an option.
+[2019-11-08T04:50:21.056] [ERROR] system - Unexpected token catch in /Users/iidatakayuki/node/weblog/views/search/list.ejs while compiling ejs
+
+If the above error is not helpful, you may want to try EJS-Lint:
+https://github.com/RyanZim/EJS-Lint
+Or, if you meant to create an async function, pass async: true as an option.
+[2019-11-08T05:17:32.526] [ERROR] system - Unexpected token catch in /Users/iidatakayuki/node/weblog/views/search/list.ejs while compiling ejs
+
+If the above error is not helpful, you may want to try EJS-Lint:
+https://github.com/RyanZim/EJS-Lint
+Or, if you meant to create an async function, pass async: true as an option.
+[2019-11-08T05:17:42.873] [ERROR] system - Unexpected token catch in /Users/iidatakayuki/node/weblog/views/search/list.ejs while compiling ejs
+
+If the above error is not helpful, you may want to try EJS-Lint:
+https://github.com/RyanZim/EJS-Lint
+Or, if you meant to create an async function, pass async: true as an option.
+[2019-11-08T05:18:01.999] [ERROR] system - Unexpected token catch in /Users/iidatakayuki/node/weblog/views/search/list.ejs while compiling ejs
+
+If the above error is not helpful, you may want to try EJS-Lint:
+https://github.com/RyanZim/EJS-Lint
+Or, if you meant to create an async function, pass async: true as an option.
+[2019-11-08T05:20:20.395] [ERROR] system - /Users/iidatakayuki/node/weblog/views/posts/index.ejs:38
+    36| 
+    37|       <div class="border-bottom mt-5 mb-5">
+ >> 38|         <h1><%= title %></h1>
+    39|       </div>
+    40|       <dl class="row mt-5 mb-5">
+    41|         <dt class="col-3">公開日:</dt>
+
+title is not defined
+[2019-11-08T05:25:32.378] [ERROR] system - /Users/iidatakayuki/node/weblog/views/posts/index.ejs:38
+    36| 
+    37|       <div class="border-bottom mt-5 mb-5">
+ >> 38|         <h1><%= title %></h1>
+    39|       </div>
+    40|       <dl class="row mt-5 mb-5">
+    41|         <dt class="col-3">公開日:</dt>
+
+title is not defined
+[2019-11-08T05:27:22.005] [ERROR] system - /Users/iidatakayuki/node/weblog/views/posts/index.ejs:38
+    36| 
+    37|       <div class="border-bottom mt-5 mb-5">
+ >> 38|         <h1><%= title %></h1>
+    39|       </div>
+    40|       <dl class="row mt-5 mb-5">
+    41|         <dt class="col-3">公開日:</dt>
+
+title is not defined
+[2019-11-08T05:27:26.891] [ERROR] system - /Users/iidatakayuki/node/weblog/views/posts/index.ejs:38
+    36| 
+    37|       <div class="border-bottom mt-5 mb-5">
+ >> 38|         <h1><%= title %></h1>
+    39|       </div>
+    40|       <dl class="row mt-5 mb-5">
+    41|         <dt class="col-3">公開日:</dt>
+
+title is not defined
+[2019-11-08T05:28:07.134] [ERROR] system - /Users/iidatakayuki/node/weblog/views/posts/index.ejs:38
+    36| 
+    37|       <div class="border-bottom mt-5 mb-5">
+ >> 38|         <h1><%= title %></h1>
+    39|       </div>
+    40|       <dl class="row mt-5 mb-5">
+    41|         <dt class="col-3">公開日:</dt>
+
+title is not defined
+[2019-11-08T05:28:20.298] [ERROR] system - Unexpected token catch in /Users/iidatakayuki/node/weblog/views/search/list.ejs while compiling ejs
+
+If the above error is not helpful, you may want to try EJS-Lint:
+https://github.com/RyanZim/EJS-Lint
+Or, if you meant to create an async function, pass async: true as an option.
+[2019-11-08T05:28:22.545] [ERROR] system - Unexpected token catch in /Users/iidatakayuki/node/weblog/views/search/list.ejs while compiling ejs
+
+If the above error is not helpful, you may want to try EJS-Lint:
+https://github.com/RyanZim/EJS-Lint
+Or, if you meant to create an async function, pass async: true as an option.
+[2019-11-08T05:33:44.661] [ERROR] system - Unexpected token catch in /Users/iidatakayuki/node/weblog/views/search/list.ejs while compiling ejs
+
+If the above error is not helpful, you may want to try EJS-Lint:
+https://github.com/RyanZim/EJS-Lint
+Or, if you meant to create an async function, pass async: true as an option.
+[2019-11-08T05:33:59.212] [ERROR] system - Unexpected token catch in /Users/iidatakayuki/node/weblog/views/search/list.ejs while compiling ejs
+
+If the above error is not helpful, you may want to try EJS-Lint:
+https://github.com/RyanZim/EJS-Lint
+Or, if you meant to create an async function, pass async: true as an option.
+[2019-11-08T05:34:04.422] [ERROR] system - /Users/iidatakayuki/node/weblog/views/search/list.ejs:37
+    35|     <main role="main" class="container">
+    36|       <div class="float-right">
+ >> 37|         <span class="badge badge-secondary"><%= count %> 件</span>
+    38|       </div>
+    39|       <form class="form-inline mt-5 mb-5" method="GET" action="/search">
+    40|         <input class="form-control" type="text" id="keyword" name="keyword" value="<%= keyword %>"/>
+
+count is not defined
+[2019-11-08T05:34:45.526] [ERROR] system - Unexpected token catch in /Users/iidatakayuki/node/weblog/views/search/list.ejs while compiling ejs
+
+If the above error is not helpful, you may want to try EJS-Lint:
+https://github.com/RyanZim/EJS-Lint
+Or, if you meant to create an async function, pass async: true as an option.
+[2019-11-08T05:35:01.868] [ERROR] system - Unexpected token catch in /Users/iidatakayuki/node/weblog/views/search/list.ejs while compiling ejs
+
+If the above error is not helpful, you may want to try EJS-Lint:
+https://github.com/RyanZim/EJS-Lint
+Or, if you meant to create an async function, pass async: true as an option.
+[2019-11-08T05:35:14.415] [ERROR] system - /Users/iidatakayuki/node/weblog/views/search/list.ejs:37
+    35|     <main role="main" class="container">
+    36|       <div class="float-right">
+ >> 37|         <span class="badge badge-secondary"><%= count %> 件</span>
+    38|       </div>
+    39|       <form class="form-inline mt-5 mb-5" method="GET" action="/search">
+    40|         <input class="form-control" type="text" id="keyword" name="keyword" value="<%= keyword %>"/>
+
+count is not defined
+[2019-11-08T05:40:36.121] [ERROR] system - Unexpected token catch in /Users/iidatakayuki/node/weblog/views/search/list.ejs while compiling ejs
+
+If the above error is not helpful, you may want to try EJS-Lint:
+https://github.com/RyanZim/EJS-Lint
+Or, if you meant to create an async function, pass async: true as an option.
+[2019-11-08T05:42:01.378] [ERROR] system - Unexpected token catch in /Users/iidatakayuki/node/weblog/views/search/list.ejs while compiling ejs
+
+If the above error is not helpful, you may want to try EJS-Lint:
+https://github.com/RyanZim/EJS-Lint
+Or, if you meant to create an async function, pass async: true as an option.
+[2019-11-08T05:43:43.238] [ERROR] system - Unexpected token catch in /Users/iidatakayuki/node/weblog/views/search/list.ejs while compiling ejs
+
+If the above error is not helpful, you may want to try EJS-Lint:
+https://github.com/RyanZim/EJS-Lint
+Or, if you meant to create an async function, pass async: true as an option.
+[2019-11-08T05:45:13.836] [ERROR] system - /Users/iidatakayuki/node/weblog/views/posts/index.ejs:38
+    36| 
+    37|       <div class="border-bottom mt-5 mb-5">
+ >> 38|         <h1><%= title %></h1>
+    39|       </div>
+    40|       <dl class="row mt-5 mb-5">
+    41|         <dt class="col-3">公開日:</dt>
+
+title is not defined

@@ -9,12 +9,14 @@
     "gulp": "gulp",
     "build-dev": "set NODE_ENV=development && gulp",
     "build-prod": "set NODE_ENV=production && gulp",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "ejlint": "ejslint views/search/list.ejs"
   },
   "author": "Takayu Iida",
   "license": "MIT",
   "devDependencies": {
     "del": "^3.0.0",
+    "ejs-lint": "^0.3.0",
     "eslint": "^4.19.1",
     "gulp": "^3.9.1",
     "gulp-sass": "^4.0.2",
@@ -28,6 +30,7 @@
     "font-awesome": "^4.7.0",
     "jquery": "^3.4.1",
     "log4js": "^2.11.0",
+    "mongodb": "^3.3.3",
     "popper.js": "^1.16.0"
   }
 }

@@ -1,3 +1,4 @@
 ・
-
 *node_modules/
+*log/
+gulpfile.js
