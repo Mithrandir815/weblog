@@ -8,7 +8,7 @@ load("./gulp/tasks", { resurse: true });
 development = [
   "copy-third_party",
   "copy-images",
-  "copy-javescripts",
+  "copy-javascripts",
   "compile-sass"
 ];
 

@@ -421,3 +421,127 @@ Or, if you meant to create an async function, pass async: true as an option.
     41|         <dt class="col-3">公開日:</dt>
 
 title is not defined
+[2019-11-08T06:21:57.093] [ERROR] system - /Users/iidatakayuki/node/weblog/views/account/index.ejs:38
+    36| 
+    37|       <div class="border-bottom mt-5 mb-5">
+ >> 38|         <h1><%= title %></h1>
+    39|       </div>
+    40|       <nav>
+    41|         <a class="nav-link active disabled" >ホーム</a>
+
+title is not defined
+[2019-11-17T02:57:52.300] [ERROR] system - /Users/iidatakayuki/node/weblog/views/account/index.ejs:30
+    28|     </style>
+    29|     <!-- Custom styles for this template -->
+ >> 30|     <%- include("../../_share/sylesheets.ejs") %>
+    31|   </head>
+    32|   <body>
+    33|     <%- include("../_share/navbar.ejs") %>
+
+Could not find the include file "../../_share/sylesheets.ejs"
+[2019-11-17T02:58:22.600] [ERROR] system - /Users/iidatakayuki/node/weblog/views/account/index.ejs:30
+    28|     </style>
+    29|     <!-- Custom styles for this template -->
+ >> 30|     <%- include("../../_share/sylesheets.ejs") %>
+    31|   </head>
+    32|   <body>
+    33|     <%- include("../_share/navbar.ejs") %>
+
+Could not find the include file "../../_share/sylesheets.ejs"
+[2019-11-17T02:58:25.684] [ERROR] system - /Users/iidatakayuki/node/weblog/views/account/index.ejs:30
+    28|     </style>
+    29|     <!-- Custom styles for this template -->
+ >> 30|     <%- include("../../_share/sylesheets.ejs") %>
+    31|   </head>
+    32|   <body>
+    33|     <%- include("../_share/navbar.ejs") %>
+
+Could not find the include file "../../_share/sylesheets.ejs"
+[2019-11-17T03:02:04.298] [ERROR] system - /Users/iidatakayuki/node/weblog/views/account/index.ejs:30
+    28|     </style>
+    29|     <!-- Custom styles for this template -->
+ >> 30|     <%- include("../_share/sylesheets.ejs") %>
+    31|   </head>
+    32|   <body>
+    33|     <%- include("../_share/navbar.ejs") %>
+
+Could not find the include file "../_share/sylesheets.ejs"
+[2019-11-17T03:02:12.453] [ERROR] system - /Users/iidatakayuki/node/weblog/views/account/index.ejs:30
+    28|     </style>
+    29|     <!-- Custom styles for this template -->
+ >> 30|     <%- include("../_share/sylesheets.ejs") %>
+    31|   </head>
+    32|   <body>
+    33|     <%- include("../_share/navbar.ejs") %>
+
+Could not find the include file "../_share/sylesheets.ejs"
+[2019-11-17T03:03:22.491] [ERROR] system - /Users/iidatakayuki/node/weblog/views/account/index.ejs:30
+    28|     </style>
+    29|     <!-- Custom styles for this template -->
+ >> 30|     <%- include("../_share/sylesheets.ejs") %>
+    31|   </head>
+    32|   <body>
+    33|     <%- include("../_share/navbar.ejs") %>
+
+Could not find the include file "../_share/sylesheets.ejs"
+[2019-11-17T03:10:11.397] [ERROR] system - /Users/iidatakayuki/node/weblog/views/account/posts/regist-form.ejs:31
+    29|   </head>
+    30|   <body>
+ >> 31|     <%- include("../_share/navbar.ejs") %>
+    32| 
+    33|     <main role="main" class="container">
+    34| 
+
+Could not find the include file "../_share/navbar.ejs"
+[2019-11-17T05:42:15.266] [ERROR] system - Missing catch or finally after try in /Users/iidatakayuki/node/weblog/views/account/posts/regist-form.ejs while compiling ejs
+
+If the above error is not helpful, you may want to try EJS-Lint:
+https://github.com/RyanZim/EJS-Lint
+Or, if you meant to create an async function, pass async: true as an option.
+[2019-11-17T05:44:06.882] [ERROR] system - /Users/iidatakayuki/node/weblog/views/account/posts/regist-form.ejs:47
+    45|           <label for="url" class="col-sm2 col-form-label">URL:</label>
+    46|           <div class="col-sm-10">
+ >> 47|             <input type="text"  class="form-control form-control <%= errors.url ? 'is-invalid' : '' %>" id="url" name="url" value="<% original.url%>" />
+    48|           </div>
+    49|         </div>
+    50|         <div class="form-group row">
+
+errors is not defined
+[2019-11-17T20:35:19.109] [ERROR] system - Can't set headers after they are sent.
+[2019-11-18T21:57:30.573] [ERROR] system - Cannot read property 'permissions' of null
+[2019-11-18T21:57:50.154] [ERROR] system - Cannot read property 'permissions' of null
+[2019-11-18T21:57:50.413] [ERROR] system - Cannot read property 'permissions' of null
+[2019-11-18T21:57:51.562] [ERROR] system - Cannot read property 'permissions' of null
+[2019-11-18T21:58:39.135] [ERROR] system - Cannot read property 'permissions' of null
+[2019-11-18T21:58:53.805] [ERROR] system - Cannot read property 'permissions' of null
+[2019-11-18T21:58:55.383] [ERROR] system - Cannot read property 'permissions' of null
+[2019-11-18T21:59:00.724] [ERROR] system - Cannot read property 'permissions' of null
+[2019-11-18T21:59:00.725] [ERROR] system - Cannot read property 'permissions' of null
+[2019-11-18T21:59:01.317] [ERROR] system - Cannot read property 'permissions' of null
+[2019-11-18T21:59:57.979] [ERROR] system - Cannot read property 'permissions' of null
+[2019-11-18T21:59:57.980] [ERROR] system - Cannot read property 'permissions' of null
+[2019-11-18T22:00:47.577] [ERROR] system - Cannot read property 'permissions' of null
+[2019-11-18T22:10:59.048] [ERROR] system - Cannot read property 'permissions' of null
+[2019-11-18T22:11:17.381] [ERROR] system - Cannot read property 'permissions' of null
+[2019-11-18T22:11:43.759] [ERROR] system - Cannot read property 'permissions' of null
+[2019-11-18T22:31:53.990] [ERROR] system - Cannot read property 'permissions' of null
+[2019-11-18T22:32:40.987] [ERROR] system - Cannot read property 'permissions' of null
+[2019-11-18T22:35:16.739] [ERROR] system - Cannot read property 'permissions' of null
+[2019-11-18T22:53:52.021] [ERROR] system - /Users/iidatakayuki/node/weblog/views/index.ejs:33
+    31|   </head>
+    32|   <body>
+ >> 33|     <%- include("./_share/navbar.ejs") %>
+    34| 
+    35|     <main role="main" class="container">
+    36| 
+
+/Users/iidatakayuki/node/weblog/views/_share/navbar.ejs:13
+    11|       </li>
+    12|     </ul>
+ >> 13|     <% if (local.user) { %>
+    14|     <form method="post" action="/account/logout" class="form-inline my-2 my-lg-0">
+    15|       <input type="button" class="btn btn-outline-success my-2 my-sm-0" type="submit" value="logout" />
+    16|     </form>
+
+local is not defined
+[2019-11-18T22:55:21.526] [ERROR] system - req.render is not a function
