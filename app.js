@@ -11,7 +11,7 @@ var app = express();
 
 
 app.set("view engine", "ejs");
-app.disable("x-powerd-by");
+app.disable("x-powered-by");
 
 app.use("/public", express.static(__dirname + "/public/" + (process.env.NODE_ENV === "development" ? "development" : "production")));
 
@@ -33,10 +33,10 @@ app.use("/", require("./routes/index.js"));
 app.use("/posts/", require("./routes/posts.js"));
 app.use("/search/", require("./routes/search.js"));
 app.use("/account/", require("./routes/account.js"));
-app.use("/api/posts", require("./api/posts.js"));
+//app.use("/api/posts", require("./api/posts.js"));
 app.use(systemlogger());
 
 var logger = require("./lib/log/logger.js").application;
 logger.error("test", "message");
 
-app.listen(3000);
+app.listen(process.env.PORT || 8080);

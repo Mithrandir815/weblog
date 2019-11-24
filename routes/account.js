@@ -109,6 +109,4 @@ router.get("/posts/regist/execute", authorize("readWrite"), (req, res) => {
   res.render("./account/posts/regist-form.ejs");
 });
 
-
-
 module.exports = router;
