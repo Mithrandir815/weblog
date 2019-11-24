@@ -1,1 +1,1 @@
-web: set NODE_ENV=production && gulp
+web: NODE_ENV=development node app.js
