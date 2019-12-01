@@ -1,1 +1,1 @@
-web: NODE_ENV=development node app.js
+web: node app.js
