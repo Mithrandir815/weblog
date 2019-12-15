@@ -39,4 +39,4 @@ app.use(systemlogger());
 var logger = require("./lib/log/logger.js").application;
 logger.error("test", "message");
 
-app.listen(process.env.PORT);
+app.listen(process.env.PORT || 3000);
