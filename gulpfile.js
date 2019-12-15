@@ -18,5 +18,5 @@ production = [
   "minify-javascripts",
   "compile-sass"
 ];
-
+console.log(config.env);
 gulp.task("default", config.env.IS_DEVELOPMENT ? development : production);
